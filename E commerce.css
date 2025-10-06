@@ -1,0 +1,289 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  padding: 0.2rem 1rem;
+  z-index: 1000;
+  background-color: transparent;
+}
+
+.logo {
+  width: 200px;
+  color: black;
+}
+
+.navlinks {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  padding-left: 200px;
+}
+.navlinks li {
+  position: relative;
+}
+.navlinks a {
+  position: relative;
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "d-din";
+}
+.support {
+  display: flex;
+  list-style: none;
+}
+.support a {
+  position: relative;
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "d-din";
+}
+
+.columncontent {
+  height: auto;
+  padding: 5rem 2rem;
+  color: black;
+  background-color: azure;
+}
+.columncontent1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+  padding: 0.2rem 6rem;
+}
+
+.columncontent1 h1 {
+  margin-top: 100px;
+  font-family: Oswald;
+  font-size: 30px;
+  padding-right: 3rem;
+}
+button {
+  margin-top: 30px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  cursor: pointer;
+}
+.imagecontent {
+  display: flex;
+  align-items: center;
+}
+
+.gridsection {
+  height: auto;
+  background-color: white;
+  padding: 0.2rem;
+  width: 100%;
+}
+
+.gridcontainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-items1 {
+  display: flex;
+  align-items: center;
+  background-color: antiquewhite;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.grid-items1 h3 {
+  font-size: 13px;
+}
+
+.gridsection1 {
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.58);
+}
+.gridheader {
+  text-align: center;
+  font-size: 1.9rem;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.gridcontainer1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+}
+.grid-items2 {
+  padding: 1.5rem;
+  box-shadow: 0 5px 15px white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  background-color: azure;
+}
+
+.section3 {
+  padding: 5rem 0;
+  height: auto;
+  background-color: white;
+  text-align: center;
+}
+
+.column1 {
+  display: flex;
+  grid-template-columns: repeat(1fr, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+}
+.grid-items3 {
+  display: flex;
+  background-color: azure;
+  padding-right: 200px;
+  padding-left: 100px;
+}
+.grid-items3 h5 {
+  padding-left: 50px;
+  margin-left: 40px;
+  font-size: 1rem;
+}
+.grid-items3 img {
+  padding-left: 40px;
+}
+
+.twocolumn {
+  height: auto;
+  padding: 5rem 2rem;
+  background-color: azure;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+.header1 {
+  padding-left: 150px;
+  margin-top: 50px;
+}
+
+.columncontent2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  padding: 0.2rem 6rem;
+}
+.text-content h6 {
+  margin-bottom: 40px;
+  font-size: 40px;
+}
+.imagecontent1 img {
+  padding-left: 4rem;
+}
+
+.gridsection2 {
+  padding: 5rem 0;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.58);
+}
+.gridheader {
+  text-align: center;
+  font-size: 1.9rem;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.gridcontainer2 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+}
+.grid-items4 {
+  padding: 1.5rem;
+  box-shadow: 0 5px 15px white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  background-color: azure;
+  align-items: center;
+}
+.grid-items4 p {
+  font-size: 20px;
+}
+
+.gridsection3 {
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.58);
+}
+.gridheader {
+  text-align: center;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.gridcontainer3 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+}
+.grid-items5 {
+  padding: 1.5rem;
+  box-shadow: 0 5px 15px white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  background-color: azure;
+}
+.grid-items4 p {
+  font-size: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.columncontent4 {
+  height: auto;
+
+  color: black;
+}
+.columncontent4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  padding: 2rem;
+  background-color: azure;
+}
+.imagecontent4 img {
+  height: auto;
+  padding-left: 150px;
+}
+
+.columncontent4 h1 {
+  color: black;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+footer {
+  display: flex;
+  background-color: azure;
+  align-items: center;
+  justify-content: space-between;
+}
+.middle ul {
+  display: flex;
+  gap: 36px;
+}
+.middle li {
+  list-style: none;
+}
+.middle a {
+  color: black;
+  text-decoration: none;
+  font-size: 0.75rem;
+}
